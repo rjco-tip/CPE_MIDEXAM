@@ -1,0 +1,8 @@
+[influxdb]
+name = InfluxDB
+baseurl = https://dl.influxdata.com/telegraf/releases/telegraf_1.20.0-1_amd64.deb
+repo_gpgcheck = 1
+enabled = 1
+gpgcheck = 1
+gpgkey = https://repos.influxdata.com/influxdb.key
+sslverify = 1

@@ -1,0 +1,10 @@
+---
+- name: Playbook to install ELK, Nagios, Grafana, Prometheus, InfluxDB and Lamp Stack 
+  hosts: ubuntu
+  roles:
+    - ubuntu/elk
+    - ubuntu/grafana
+    - ubuntu/nagios
+    - ubuntu/prometheus
+    - ubuntu/influxdb
+    - ubuntu/lampstack
